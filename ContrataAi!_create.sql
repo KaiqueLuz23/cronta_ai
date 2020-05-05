@@ -1,4 +1,3 @@
--- tables
 -- Table: Candidato
 CREATE TABLE Candidato (
     cod_candidato number(8)  NOT NULL,
@@ -224,3 +223,4 @@ ALTER TABLE Pessoa ADD CONSTRAINT Pessoa_Telefone
 ALTER TABLE Vaga ADD CONSTRAINT Vaga_Empresa
     FOREIGN KEY (cod_empresa)
     REFERENCES Empresa (cod_empresa);
+
