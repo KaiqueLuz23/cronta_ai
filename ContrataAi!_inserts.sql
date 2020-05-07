@@ -167,4 +167,4 @@ VALUES(candidato_seq.nextval,2,2,2);
 
 --Inscricao
 INSERT INTO inscricao
-VALUES(inscricao_seq.nextval,4,3);
+VALUES(inscricao_seq.nextval,4,3); 
